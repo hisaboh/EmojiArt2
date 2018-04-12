@@ -20,6 +20,7 @@
 		EC78D935207CC07A00C5FD22 /* EmojiArt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC78D92D207CC07A00C5FD22 /* EmojiArt.swift */; };
 		EC78D936207CC07A00C5FD22 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC78D92E207CC07A00C5FD22 /* Utilities.swift */; };
 		EC78D937207CC07A00C5FD22 /* EmojiArtView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC78D92F207CC07A00C5FD22 /* EmojiArtView.swift */; };
+		ECAD38D8207F2206009CD7CF /* DocumentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD38D7207F2206009CD7CF /* DocumentInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		EC78D92D207CC07A00C5FD22 /* EmojiArt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArt.swift; sourceTree = "<group>"; };
 		EC78D92E207CC07A00C5FD22 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		EC78D92F207CC07A00C5FD22 /* EmojiArtView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiArtView.swift; sourceTree = "<group>"; };
+		ECAD38D7207F2206009CD7CF /* DocumentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				EC78D927207CB3AF00C5FD22 /* Supporting Files */,
 				EC78D913207CB39A00C5FD22 /* DocumentBrowserViewController.swift */,
 				EC78D919207CB39A00C5FD22 /* Main.storyboard */,
+				ECAD38D7207F2206009CD7CF /* DocumentInfoViewController.swift */,
 				EC78D921207CB39B00C5FD22 /* Info.plist */,
 			);
 			path = EmojiArt;
@@ -167,6 +170,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAD38D8207F2206009CD7CF /* DocumentInfoViewController.swift in Sources */,
 				EC78D935207CC07A00C5FD22 /* EmojiArt.swift in Sources */,
 				EC78D937207CC07A00C5FD22 /* EmojiArtView.swift in Sources */,
 				EC78D931207CC07A00C5FD22 /* EmojiArtView+Gestures.swift in Sources */,

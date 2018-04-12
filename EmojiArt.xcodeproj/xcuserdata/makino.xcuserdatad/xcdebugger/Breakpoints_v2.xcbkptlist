@@ -10,13 +10,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EmojiArt/DocumentBrowserViewController.swift"
-            timestampString = "545050408.058194"
+            timestampString = "545207808.489652"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "68"
             endingLineNumber = "68"
-            landmarkName = "presentDocument(at:)"
-            landmarkType = "7">
+            landmarkName = "DocumentBrowserViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
