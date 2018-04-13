@@ -202,9 +202,15 @@
                                     <segue destination="A4G-yY-oo8" kind="presentation" identifier="Show Document Info" modalPresentationStyle="formSheet" modalTransitionStyle="coverVertical" id="QWL-lL-7vq"/>
                                 </connections>
                             </barButtonItem>
+                            <barButtonItem systemItem="camera" id="QHy-0g-VEQ">
+                                <connections>
+                                    <action selector="takeBackgroundPhoto:" destination="P65-sd-Jen" id="j4V-Jk-vlr"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
+                        <outlet property="cameraButton" destination="QHy-0g-VEQ" id="4XL-et-njl"/>
                         <outlet property="dropZone" destination="7gT-XM-CxI" id="qmA-AM-EB2"/>
                         <outlet property="embeddedDocInfoHeight" destination="DT8-fK-Wv5" id="iiQ-XC-5sg"/>
                         <outlet property="embeddedDocInfoWIdth" destination="adw-ZI-zMt" id="YmY-sC-t9s"/>
@@ -386,6 +392,7 @@
                             <constraint firstItem="URd-Qw-wLZ" firstAttribute="centerX" secondItem="Gt7-GY-lyO" secondAttribute="centerX" id="70V-Fw-3Me"/>
                             <constraint firstItem="URd-Qw-wLZ" firstAttribute="centerY" secondItem="Gt7-GY-lyO" secondAttribute="centerY" id="v3a-Dm-HpB"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="FtD-jq-o8B"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wcl-Ko-O2F" userLabel="First Responder" sceneMemberID="firstResponder"/>
